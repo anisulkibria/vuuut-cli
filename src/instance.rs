@@ -351,7 +351,7 @@ pub fn install(dir: &Path, options: Install) -> Result<()> {
         site.launch(&installed, &config)?;
     }
     println!("Installed revision {}.", installed.revision);
-    println!("Admin setup  {}ghost/", with_trailing_slash(config.url));
+    println!("Admin setup  {}vuuut/", with_trailing_slash(config.url));
     Ok(())
 }
 
